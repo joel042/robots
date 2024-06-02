@@ -5,6 +5,7 @@ import SeachBox from './SeachBox';
 
 
 
+
  
 
 class  App extends Component{
@@ -31,8 +32,8 @@ class  App extends Component{
         })
  return (
     <div className='tc'>
-    <h1>My Robots Collection</h1>
-    <SeachBox  searchChange= {this.onSearchChange}/>
+    <h1 className='f1'>My Robots Collection</h1>
+    <SeachBox    searchChange= {this.onSearchChange}/>
       <CardList robots={filteredRobots} />
       
     </div>
